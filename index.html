@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual Studio Code - Clone</title>
+
+    <!-- Swiper Js file -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Box icons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar active">
+      <div class="navbar__contents">
+        <div class="logo">
+          <img class="logo-img" src="./img/logo.png.ico" alt="" />
+          <span class="logo-text">Visual Studio Code</span>
+        </div>
+      </div>
+
+      <div class="nav-container">
+        <div class="nav__menu">
+          <ul>
+            <li><a href="">Docs</a></li>
+            <li><a href="">Updates</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="">Extensions</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Learn</a></li>
+          </ul>
+        </div>
+
+        <div class="search">
+          <div class="searchbox">
+            <img class="search-icon" src="./img/search.svg" alt="" />
+            <input type="text" placeholder="Search Docs" />
+          </div>
+          <div class="download-btns">
+            <img class="download-icon" src="./img//download.svg" alt="" />
+            <button class="download">Download</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-nav">
+        <i class="bx bx-menu mobile-menu"></i>
+      </div>
+    </nav>
+
+    <!-- update Section  -->
+    <section class="update">
+      <p>
+        <span>Version 1.74</span> is now available! Read about the new features
+        and fixes from November.
+      </p>
+    </section>
+
+    <!-- Hero Section -->
+
+    <section class="hero-section">
+      <div class="left-hero">
+        <div class="hero__text">
+          <h1 class="text1">Code editing.</h1>
+          <h1 class="text2">Redefined.</h1>
+          <p>Free. Built on open source. Runs everywhere.</p>
+        </div>
+
+        <div class="hero__btn">
+          <div>
+            <button class="btn">
+              Download for Windows <br />
+              <span>Stable Build</span>
+            </button>
+          </div>
+
+          <div>
+            <i class="bx bx-chevron-down down-arrow"></i>
+          </div>
+        </div>
+
+        <div class="hero__links-1">
+          <p>
+            <a href="#">Web</a> , <a href="#">Insiders edition</a> , or
+            <a href="#">other platforms</a>
+          </p>
+        </div>
+
+        <div class="hero__links-2">
+          <p>
+            By using VS Code, you agree to its <br />
+            <a href="#">license and privacy statement.</a>
+          </p>
+        </div>
+      </div>
+      <div class="right">
+        <img class="hero__img" src="./img/home-screenshot-mac.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Features Section Starts Here -->
+
+    <section class="features">
+      <div class="feature__box">
+        <img class="feature-img" src="./img/feature1.png" alt="" />
+        <p>IntelliSense</p>
+      </div>
+
+      <div class="feature__box">
+        <img class="feature-img" src="./img/feature2.png" alt="" />
+        <p>Run and Debug</p>
+      </div>
+
+      <div class="feature__box">
+        <img class="feature-img" src="./img/feature3.png" alt="" />
+        <p>Built-in Git</p>
+      </div>
+
+      <div class="feature__box">
+        <img class="feature-img" src="./img/feature4.png" alt="" />
+        <p>Extensions</p>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonial-contents">
+            <div>
+              <img class="profile" src="./img/profile1.jpg" alt="" />
+            </div>
+            <div>
+              <h4>Darren <span class="userid">@MrDarrenV</span></h4>
+              <p class="user-text">
+                Just as I thought @code couldn't get better, out comes its
+                Remote Development plugins that let you remote into containers
+                as a dev environment! 😍
+              </p>
+
+              <i class="bx bxl-twitter twitter-logo"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-contents">
+            <div>
+              <img class="profile" src="./img/profile1.jpg" alt="" />
+            </div>
+            <div>
+              <h4>Gift Egwuenu <span class="userid">@MrDarrenV</span></h4>
+              <p class="user-text">
+                I was a vim fan, but then discovered VS Code's Vim plugin, which
+                lets me add in my vim keybindings. I can maintain my coding
+                style without having to compromise on speed.
+              </p>
+
+              <i class="bx bxl-twitter twitter-logo"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-contents">
+            <div>
+              <img class="profile" src="./img/profile1.jpg" alt="" />
+            </div>
+            <div>
+              <h4>Cassidy Williams <span class="userid">@MrDarrenV</span></h4>
+              <p class="user-text">
+                I love @code The built-in markdown previewer is awesome and the
+                plugin system allows me to use GitLens, which makes my workflow
+                so much easier.
+              </p>
+
+              <i class="bx bxl-twitter twitter-logo"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-contents">
+            <div>
+              <img class="profile" src="./img/profile1.jpg" alt="" />
+            </div>
+            <div>
+              <h4>Una Kravets <span class="userid">@MrDarrenV</span></h4>
+              <p class="user-text">
+                VS @code does so many things right. I’m constantly impressed by
+                the UX, and customizing workspace / user preferences is no
+                exception. 🙌🏼💯 It just keeps getting better ❤️
+              </p>
+
+              <i class="bx bxl-twitter twitter-logo"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-contents">
+            <div>
+              <img class="profile" src="./img/profile1.jpg" alt="" />
+            </div>
+            <div>
+              <h4>Jonathan Dunlap <span class="userid">@MrDarrenV</span></h4>
+              <p class="user-text">
+                VS Code will have deep remote development. You can connect to a
+                container running a different OS and use any VS Code plugins,
+                linting, debugging for that environment. 🔥🔥🔥
+              </p>
+
+              <i class="bx bxl-twitter twitter-logo"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-contents">
+            <div>
+              <img class="profile" src="./img/profile1.jpg" alt="" />
+            </div>
+            <div>
+              <h4>Pavithra Kodmad <span class="userid">@MrDarrenV</span></h4>
+              <p class="user-text">
+                VS Code is my most used and favorite editor. I love being able
+                to customize the editor - changing the layout, the icons, fonts
+                and color scheme is so easy!
+              </p>
+
+              <i class="bx bxl-twitter twitter-logo"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-contents">
+            <div>
+              <img class="profile" src="./img/profile1.jpg" alt="" />
+            </div>
+            <div>
+              <h4>Darren <span class="userid">@MrDarrenV</span></h4>
+              <p class="user-text">
+                Just as I thought @code couldn't get better, out comes its
+                Remote Development plugins that let you remote into containers
+                as a dev environment! 😍
+              </p>
+
+              <i class="bx bxl-twitter twitter-logo"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-contents">
+            <div>
+              <img class="profile" src="./img/profile1.jpg" alt="" />
+            </div>
+            <div>
+              <h4>Gift Egwuenu <span class="userid">@MrDarrenV</span></h4>
+              <p class="user-text">
+                I was a vim fan, but then discovered VS Code's Vim plugin, which
+                lets me add in my vim keybindings. I can maintain my coding
+                style without having to compromise on speed.
+              </p>
+
+              <i class="bx bxl-twitter twitter-logo"></i>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial-contents">
+            <div>
+              <img class="profile" src="./img/profile1.jpg" alt="" />
+            </div>
+            <div>
+              <h4>Cassidy Williams <span class="userid">@MrDarrenV</span></h4>
+              <p class="user-text">
+                I love @code The built-in markdown previewer is awesome and the
+                plugin system allows me to use GitLens, which makes my workflow
+                so much easier.
+              </p>
+
+              <i class="bx bxl-twitter twitter-logo"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Intellisense starts here -->
+
+    <section class="intellisense">
+      <div class="left-intel">
+        <img src="./img/home-intellisense.svg" alt="" />
+      </div>
+      <div class="right-intel">
+        <h2>Meet IntelliSense.</h2>
+        <p>
+          Go beyond syntax highlighting and autocomplete with IntelliSense,
+          which provides smart completions based on variable types, function
+          definitions, and imported modules.
+        </p>
+      </div>
+    </section>
+
+    <!-- Debugging starts here -->
+
+    <section class="debugging-contents">
+      <div class="left">
+        <h2 class="debug-title">
+          Print statement debugging is a thing of the past.
+        </h2>
+        <p class="debug-para">
+          Debug code right from the editor. Launch or attach to your running
+          apps and debug with break points, call stacks, and an interactive
+          console.
+        </p>
+      </div>
+      <div class="right">
+        <img class="debug-img" src="./img/home-debug.svg" alt="" />
+      </div>
+    </section>
+
+    <!-- Git section starts here -->
+
+    <section class="git">
+      <div class="left-git">
+        <img src="./img/home-git.svg" alt="" />
+      </div>
+      <div class="right-git">
+        <h2>Git commands built-in.</h2>
+        <p>
+          Working with Git and other SCM providers has never been easier. Review
+          diffs, stage files, and make commits right from the editor. Push and
+          pull from any hosted SCM service.
+        </p>
+      </div>
+    </section>
+
+    <!-- feature Gallery starts here -->
+
+    <section class="gallery">
+      <div class="left">
+        <h2 class="debug-title">Extensible and customizable.</h2>
+        <p class="debug-para">
+          Want even more features? Install extensions to add new languages,
+          themes, debuggers, and to connect to additional services. Extensions
+          run in separate processes, ensuring they won't slow down your
+          editor.Learn more about extensions.
+        </p>
+      </div>
+      <div class="right">
+        <img class="gallery-img" src="./img/gallery.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Deploy section starts here -->
+
+    <section class="deploy">
+      <div class="left-deploy">
+        <img src="./img/home-azure.svg" alt="" />
+      </div>
+      <div class="right-deploy">
+        <h2>Deploy with confidence and ease</h2>
+        <p>
+          With Microsoft Azure you can deploy and host your React, Angular, Vue,
+          Node, Python (and more!) sites, store and query relational and
+          document based data, and scale with serverless computing, all with
+          ease, all from within VS Code.
+        </p>
+      </div>
+    </section>
+
+    <!-- VS code section starts here -->
+
+    <section class="vs-code">
+      <h2>VS Code for</h2>
+
+      <div class="languages">
+        <div>
+          <img src="./img/file-icons/javascript.svg" alt="" />
+          <p>Javascript</p>
+        </div>
+
+        <div>
+          <img src="./img/file-icons/python.svg" alt="" />
+          <p>Python</p>
+        </div>
+
+        <div>
+          <img src="./img/file-icons/java.svg" alt="" />
+          <p>Java</p>
+        </div>
+
+        <div>
+          <img src="./img/file-icons/markdown.svg" alt="" />
+          <p>Markdown</p>
+        </div>
+
+        <div>
+          <img src="./img/file-icons/typescript.svg" alt="" />
+          <p>TypeScript</p>
+        </div>
+
+        <div>
+          <img src="./img/file-icons/cpp.svg" alt="" />
+          <p>C/C++</p>
+        </div>
+
+        <div>
+          <img src="./img/file-icons/json.svg" alt="" />
+          <p>JSON</p>
+        </div>
+
+        <div>
+          <img src="./img/file-icons/powershell.svg" alt="" />
+          <p>Powershell</p>
+        </div>
+
+        <div>
+          <img src="./img/file-icons/html.svg" alt="" />
+          <p>HTML/CSS</p>
+        </div>
+
+        <div>
+          <img src="./img/file-icons/csharp.svg" alt="" />
+          <p>C#</p>
+        </div>
+
+        <div>
+          <img src="./img/file-icons/php.svg" alt="" />
+          <p>PHP</p>
+        </div>
+
+        <div>
+          <img src="./img/file-icons/yaml.svg" alt="" />
+          <p>YAML</p>
+        </div>
+      </div>
+
+      <div class="languages-text">
+        <p>and many more languages on the Marketplace...</p>
+      </div>
+
+      <button class="getstarted">Get Started Now</button>
+    </section>
+
+    <!-- Platform section starts here -->
+
+    <section class="platforms">
+      <div class="platform-card">
+        <div class="image-container">
+          <img class="windows" src="./img/windows-logo.png" alt="" />
+        </div>
+
+        <div class="button-container">
+          <div class="img-button">
+            <img class="download-icon-2" src="./img/download.svg" alt="" />
+            <button class="window-btn">Windows</button>
+          </div>
+          <span class="windows-tag">Windows 8,10,11</span>
+        </div>
+
+        <div class="platform-card-details">
+          <div class="cards">
+            <div class="cards-title">
+              <p>User Installer</p>
+              <p>System Installer</p>
+              <p>.zip</p>
+              <p>CLI</p>
+            </div>
+            <div card-btns>
+              <div class="cb">
+                <button>x64</button>
+                <button>x86</button>
+                <button>Arm64</button>
+              </div>
+
+              <div class="cb">
+                <button>x64</button>
+                <button>x86</button>
+                <button>Arm64</button>
+              </div>
+
+              <div class="cb">
+                <button>x64</button>
+                <button>x86</button>
+                <button>Arm64</button>
+              </div>
+
+              <div class="cb">
+                <button>x64</button>
+                <button>x86</button>
+                <button>Arm64</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="platform-card">
+        <div class="image-container">
+          <img class="linux" src="./img/linux-logo.png" alt="" />
+        </div>
+
+        <div class="btn-container">
+          <div class="button-container2">
+            <div class="img-button">
+              <img class="download-icon-2" src="./img/download.svg" alt="" />
+              <button class="window-btn">.deb</button>
+            </div>
+            <span class="windows-tag">Debian, Ubuntu</span>
+          </div>
+
+          <div class="button-container2">
+            <div class="img-button">
+              <img class="download-icon-2" src="./img/download.svg" alt="" />
+              <button class="window-btn">.rpm</button>
+            </div>
+            <span class="windows-tag">Red Hat, Fedora, SUSE</span>
+          </div>
+        </div>
+
+        <div class="platform-card-details">
+          <div class="cards">
+            <div class="cards-title">
+              <p>.deb</p>
+              <p>.rpm</p>
+              <p>.tar.gz</p>
+              <p>Snap</p>
+              <p>CLI</p>
+            </div>
+            <div card-btns>
+              <div class="cb">
+                <button>x64</button>
+                <button>Arm32</button>
+                <button>Arm64</button>
+              </div>
+
+              <div class="cb">
+                <button>x64</button>
+                <button>Arm32</button>
+                <button>Arm64</button>
+              </div>
+
+              <div class="cb">
+                <button>x64</button>
+                <button>Arm32</button>
+                <button>Arm64</button>
+              </div>
+
+              <div class="cb">
+                <button>Snap Store</button>
+              </div>
+
+              <div class="cb">
+                <button>x64</button>
+                <button>Arm32</button>
+                <button>Arm64</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="platform-card">
+        <div class="image-container">
+          <img class="apple" src="./img/apple-logo.svg" alt="" />
+        </div>
+
+        <div class="button-container">
+          <div class="img-button">
+            <img class="download-icon-2" src="./img/download.svg" alt="" />
+            <button class="window-btn">Mac</button>
+          </div>
+          <span class="windows-tag">Windows 8,10,11</span>
+        </div>
+
+        <div class="platform-card-details">
+          <div class="cards">
+            <div class="cards-title">
+              <p>.zip</p>
+              <p>CLI</p>
+            </div>
+            <div card-btns>
+              <div class="cb">
+                <button>Intel chip</button>
+                <button>Applel silicon</button>
+                <button>Universal</button>
+              </div>
+
+              <div class="cb">
+                <button>Intel chip</button>
+                <button>Applel silicon</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section starts here -->
+
+    <section class="footer">
+      <div class="upper">
+        <div class="left-side">
+          <h3>Want new features sooner?</h3>
+          <p>Get the <span>Insiders build</span> instead.</p>
+        </div>
+        <div class="right-side">
+          <h3>
+            Use <span>vscode.dev</span> for quick edits <br />
+            online!
+          </h3>
+          <p>GitHub, Azure Repos, and local files.</p>
+        </div>
+      </div>
+
+      <div class="lower">
+        <h6>LICENSE AND PRIVACY TERMS</h6>
+        <p>
+          By downloading and using Visual Studio Code, you agree to the license
+          terms and privacy statement. VS Code <br />
+          automatically sends telemetry data and crash dumps to help us improve
+          the product. If you would prefer not <br />
+          to have this data sent please go see How to Disable Crash Reporting to
+          learn how to disable it.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer 2 -->
+
+    <section class="footer2">
+      <div class="ls">
+        <div>
+          <p>Hello from Seattle.</p>
+        </div>
+
+        <div>
+          <p>Follow @code</p>
+        </div>
+      </div>
+
+      <div class="rs">
+        <div>
+          <p>Support</p>
+        </div>
+
+        <div>
+          <p>Privacy</p>
+        </div>
+
+        <div>
+          <p>Terms of Use</p>
+        </div>
+
+        <div>
+          <p>License</p>
+        </div>
+
+        <div>
+          <img class="microsoft" src="./img/microsoft-logo.png" alt="" />
+          <p class="microsoft-tag">© 2022 Microsoft</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper Js script File -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom JS file -->
+    <script src="./script.js"></script>
+  </body>
+</html>
